@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "procedural-world-studio"
+version = "0.1.0"
+description = "Deterministic procedural world generation and editing workbench"
+requires-python = ">=3.10"
+dependencies = ["Pillow>=10.0", "numpy>=1.24"]
+
+[project.optional-dependencies]
+gui = ["PySide6>=6.6"]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+procedural-world-studio = "procedural_world_studio.ui_editor:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.setuptools.packages.find]
+include = ["procedural_world_studio*"]
+

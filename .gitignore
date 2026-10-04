@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+build/
+dist/
+*.egg-info/
+# Keep the canonical, fixed-seed demo/export samples in the deliverable.
+# Put ad-hoc experiments under demo/_generated/ if they should stay local.
+demo/_generated/
+*.log
