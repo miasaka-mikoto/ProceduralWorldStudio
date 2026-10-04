@@ -1,0 +1,26 @@
+{
+  "seed": 20261004,
+  "terrain": "coast",
+  "road_pattern": "hybrid",
+  "generator_version": "0.1.0",
+  "feature_count": 867,
+  "collection_counts": {
+    "terrain": 1,
+    "water": 1,
+    "roads": 39,
+    "districts": 16,
+    "blocks": 125,
+    "lots": 375,
+    "buildings": 284,
+    "harbor": 13,
+    "pois": 13
+  },
+  "sha256_world_json": "38addcb66f32e5a2b9367b55c45ba271f2ebb59241c34ac179bf473010a59c8a",
+  "files": [
+    "world.geojson",
+    "world.gltf",
+    "world.json",
+    "world.obj",
+    "world.png"
+  ]
+}
