@@ -1,0 +1,26 @@
+{
+  "seed": 31415,
+  "terrain": "hills",
+  "road_pattern": "organic",
+  "generator_version": "0.1.0",
+  "feature_count": 817,
+  "collection_counts": {
+    "terrain": 1,
+    "water": 1,
+    "roads": 19,
+    "districts": 16,
+    "blocks": 123,
+    "lots": 369,
+    "buildings": 274,
+    "harbor": 0,
+    "pois": 14
+  },
+  "sha256_world_json": "e193719767ae5ea848f5b6628ee36992ce008b35ffe3c8361e849f1c2c1963dd",
+  "files": [
+    "world.geojson",
+    "world.gltf",
+    "world.json",
+    "world.obj",
+    "world.png"
+  ]
+}
